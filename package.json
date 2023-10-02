@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "web": "vite",
-    "dev": "nodemon server/index.js"
+    "dev": "env YTDL_NO_UPDATE=1 nodemon server/index.js"
   },
   "devDependencies": {
     "nodemon": "^3.0.1",
